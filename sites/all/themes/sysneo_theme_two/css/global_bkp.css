@@ -1,0 +1,97 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+body {
+  background:url(../images/fondo.png);
+} 
+.reposicion {
+  margin-right: 1px;
+}
+/*posiciona el logo*/
+#region-branding 
+.region-branding-inner{
+  /*padding-left:50px;*/
+} 
+/*areglo a la direccion*/
+/*#region-header-first{
+  background:url(../images/background_header.png);
+  border-radius:0.5em;
+} */
+.region-header-first-inner{
+  background:url(../images/background_header.png);
+  border-radius:0.5em;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  padding-top: 9px;
+} 
+p{
+  margin:0px;
+  margin-top: 0px;
+} 
+/*areglo al telefono*/
+/*#region-header-second{
+  background:url(../images/background_header.png);
+  border-radius:0.5em;
+} */
+.region-header-second-inner{
+  background:url(../images/background_header.png);
+  border-radius:0.5em;
+  padding-top:15px;
+  padding-left:15px;
+} 
+#region-branding-second{
+  margin:22px 2px auto;
+} 
+/*haciendo el fondo*/
+#zone-branding, #zone-header, #zone-content, #zone-footer, #zone-preface{
+  background:white;
+} 
+/*margen del contenido respecto al encabezado*/
+#region-content{
+  margin-top:15px;
+}
+/*#zone-postscript {
+  background:url(../images/redondeado.png);
+  height: 13px;
+}*/
+#region-postscript-first{ /*altura de la barra redondeada del encabezado*/
+    height: 15px;
+    margin: 0;
+}
+#region-header-first{
+    margin-top: 10px;
+}
+#zone-footer{
+  padding-top:10px;
+} 
+#region-footer-second{
+    margin-top: 10px;
+}
+#section-footer{ /*margen respecto al pie de pagina*/
+    margin-bottom: 20px;
+}
+#zone-postscript-wrapper{
+    margin-top: 10px;
+}
+#region-preface-first{
+    margin: 0px;
+    height: 15px;
+}
+
+/*realizando el encabezado*/
+#encabezado-fondo{
+    background:url(../images/background_encabezado.png);
+    position: relative;
+}
+#flash-logo{
+    float: left;
+    margin-left: 50px;
+    position: relative;
+    width: 130px;
+}
+#imagen-banner{
+    float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+    position: relative;
+    width: 345px;  
+}

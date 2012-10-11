@@ -1,0 +1,164 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+body {
+  background:url(../images/fondo.png);
+} 
+.reposicion {
+  margin-right: 1px;
+}
+/*posiciona el logo*/
+#region-branding 
+.region-branding-inner{
+  /*padding-left:50px;*/
+} 
+/*areglo a la direccion*/
+/*#region-header-first{
+  background:url(../images/background_header.png);
+  border-radius:0.5em;
+} */
+.region-header-first-inner{
+  background:url(../images/background_header.png);
+  border-radius:0.5em;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  padding-top: 9px;
+} 
+p{
+  margin:0px;
+  margin-top: 0px;
+} 
+/*areglo al telefono*/
+/*#region-header-second{
+  background:url(../images/background_header.png);
+  border-radius:0.5em;
+} */
+.region-header-second-inner{
+  background:url(../images/background_header.png);
+  border-radius:0.5em;
+  padding-top:15px;
+  padding-left:15px;
+} 
+#region-branding-second{
+  margin:22px 2px auto;
+} 
+/*haciendo el fondo*/
+#zone-branding, #zone-header, #zone-content, #zone-footer, #zone-preface, #zone-menu{
+  background:white;
+} 
+/*margen del contenido respecto al encabezado*/
+#region-content{
+  margin-top:15px;
+}
+/*#zone-postscript {
+  background:url(../images/redondeado.png);
+  height: 13px;
+}*/
+#region-postscript-first{ /*altura de la barra redondeada del encabezado*/
+    height: 15px;
+    margin: 0;
+}
+#region-header-first{
+    margin-top: 10px;
+}
+#region-menu {
+    margin-top: 10px;
+}
+#zone-footer{
+  padding-top:10px;
+} 
+#region-footer-second{
+    margin-top: 10px;
+}
+#section-footer{ /*margen respecto al pie de pagina*/
+    margin-bottom: 20px;
+}
+#zone-postscript-wrapper{
+    margin-top: 10px;
+}
+#region-preface-first{
+    margin: 0px;
+    height: 15px;
+}
+
+/*realizando el encabezado*/
+#encabezado-fondo{
+    height: 151px;
+    margin-left: 8px;
+    position: relative;
+}
+#flash-logo{
+    float: left;
+    margin-left: 50px;
+    margin-top: 12px;
+    position: relative;
+    width: 130px;
+}
+#imagen-banner{
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    position: relative;
+    width: 345px;  
+}
+#zindex-encabezado{
+    position: absolute;
+    z-index: 0;
+}
+/*construyendo la presentacion de las copiadoras con views, la vista se llama copiadoras1*/
+
+.imagen-cc {
+    float: left;
+    margin-top: 40px;
+    position: relative;
+}
+.codigo {
+    float: left;
+    font-weight: bold;
+    position: relative;
+}
+.velocidad, .formato, .driver{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+.brochure {
+    float: left;
+    margin-left: 200px;
+    position: relative;
+}
+
+.descripcion {
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+    width: 560px;
+}
+/*dando formato a la presentacion de la tabla en el grid de views (copiadoras1) - se configura en formato/grid/opciones de la vista agregando la clase .linea-separador */
+table {
+    border: 0px solid #CCCCCC;
+}
+tr .linea-separador {
+    border-top: 1px solid #CCCCCC;
+}
+
+/*redimensionando el tamaño de letra del titulo*/
+h1 {
+    font-size: 20px;
+}
+
+/*dando formato a la presentacion de las páginas tales como quienes somos, servicio técnico, etc*/
+.imagen-page {
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+}
+.titulo-page {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 210px;
+}
+.contenido-page {
+    float: right;
+    margin-right: 10px;
+    width: 520px;
+}
